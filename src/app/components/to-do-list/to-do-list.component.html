@@ -1,0 +1,9 @@
+<p>to-do-list works!</p>
+
+<button (click)="increment()">Increment</button>
+<button (click)="decrement()">Decrement</button>
+<div>Current Count: {{ count$ | async }}</div>
+
+<div *ngFor="let item of (list$ | async); let i = index">
+    {{item.item}}
+</div>

@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ngrx-understanding": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngrx-understanding"
+    }
+  },
+  "defaultProject": "ngrx-understanding",
+  "cli": {
+    "analytics": "795a20bc-1751-44a2-89e0-ddb80370736d"
+  }
 }
